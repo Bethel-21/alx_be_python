@@ -10,7 +10,7 @@ another_input = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
 
 
 def convert_to_celsius():
-    return (take_input - 30) * FAHRENHEIT_TO_CELSIUS_FACTOR
+    return (take_input - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
 
 def convert_to_fahrenheit():
     return (take_input * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
