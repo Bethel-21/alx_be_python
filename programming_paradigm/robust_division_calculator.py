@@ -11,7 +11,7 @@ def safe_divide(numerator, denominator):
             print("Error: Cannot divide by zero.")
         
     except ValueError as e:
-        print("Non numeric input.Please enter valid numbers.")
+        print("Error: Please enter numeric values only.")
     else:
             return f"The result of the division is {division}"
         
